@@ -1,0 +1,81 @@
+/*标题样式*/
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: monospace;
+  color: black;
+}
+
+h2 {
+  position: relative;
+  left: 1%;
+  right: 1%;
+}
+
+/*添加边框*/
+.border-style{
+  clear:both;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 8px;
+  border-color: LightBlue;
+  margin: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  float: left;
+  width: 100%;
+}
+
+.border-margin-top-zero {
+  margin-top: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top-width: 50%;
+}
+
+.border-margin-bottom-zero {
+  margin-bottom: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-width: 50%;
+}
+
+/*考试信息*/
+
+.exam-information {
+  float: left;
+  width: 30%;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/*考生信息*/
+
+.student-information {
+  float: left;
+  width: 30%;
+  text-align: center;
+}
+
+/*题目要求样式*/
+
+.topic {
+  position: relative;
+  left: 1%;
+  right: 1%;
+  top: auto;
+  bottom: auto;
+}
+
+/*提交按钮样式*/
+
+.submit-button {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  top: auto;
+  bottom: auto;
+  color: white;
+  background-color: deepskyBlue;
+}
