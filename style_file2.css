@@ -29,6 +29,11 @@ body {
   width: 1600px;
 }
 
+.img-1 {
+  height: 330px;
+  width: 330px;
+}
+
 .menu-border {
   border-style: solid;
   border-top-width: 0;
@@ -88,7 +93,7 @@ body {
   margin-bottom: 2%;
 }
 
-.submit2{
+.submit2 {
   color: #636471;
   background-color: #ffcd62;
   margin-top: 0;
@@ -98,6 +103,14 @@ body {
   height: 5%;
   position: relative;
   left: 45%;
+}
+
+.submit3 {
+  background-color: #7db79b;
+  color: #fdfbf6;
+  width: 300px;
+  height: 60px;
+  font-size: 20px;
 }
 
 .div-mission {
@@ -110,9 +123,9 @@ body {
   color: #4d4e59;
 }
 
-.div-normal{
+.div-normal {
   font-size: 20px;
-  font-family:Open sans;
+  font-family: Open sans;
   text-align: center;
   color: #636471;
   margin-top: 32px;
@@ -120,10 +133,56 @@ body {
   padding: 0;
 }
 
-.div-container2{
+.div-container2 {
   clear: both;
   float: left;
   width: 1600px;
-  height: auto;
-  background-color: #fcf9f4;
+  height: 700;
+  background-color: #92d0b1;
+  float: left;
+}
+
+.div-img-1 {
+  margin-top: 185px;
+  margin-bottom: 185px;
+  width: 330px;
+  height: 330px;
+  margin-left: 312px;
+  margin-right: 136px;
+  padding: 0;
+  float: left;
+}
+
+.div-students-infor-container {
+  margin-top: 170px;
+  margin-left: 0;
+  margin-bottom: 0;
+  padding: 0;
+  float: left;
+  left: 780px;
+  width: 520px;
+}
+
+.div-students {
+  margin: 0;
+  padding: 0;
+  color: #fcf9f4;
+  font-family: sans-serif;
+  font-size: 52px;
+  font-size: 20px;
+  float: left;
+}
+
+.div-stuents-parapgh {
+  color: #fcf9f4;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 300px;
+  line-height: 20px;
+  float: left;
+  width: 520px;
+  font-size: 20px;
+  line-height: 40px;
 }
