@@ -32,11 +32,6 @@ body {
   float: right;
 }
 
-.img-hero {
-  height: 794px;
-  width: 1600px;
-}
-
 .img-1 {
   height: 330px;
   width: 330px;
@@ -125,32 +120,67 @@ body {
   border-radius: 8px;
 }
 
-.div-online-infor{
-  font-size: 60px;
+.img-hero {
+  height: 794px;
+  width: 1600px;
+}
+
+.div-container2 {
+  width: 1600px;
+  height: 794px;
+  float: left;
+  background-image: url(hero.png);
+  background-size: 100% 100%;
+}
+
+.div-container2-background-mask {
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 1600px;
+  height: 794px;
+  float: left;
+}
+
+.div-online-infor {
+  float: left;
+  width: 100%;
+  margin-top: 300px;
+  text-align: center;
+  font-size: 50px;
   font-family: cursive;
   color: #ffffff;
-  margin-top:300px;
-  text-align: center;
+}
+
+.submit-container {
+  width: 50%;
+  height: 100%;
+  float: left;
+  position: relative;
+  left: 30%;
+  margin-top: 50px;
+  padding: 0;
+  font-size: 24px;
 }
 
 .submit-student {
-  margin-top: 50px;
   width: 270px;
   height: 60px;
   float: left;
-  position: relative;
-  left:30%;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.2);
 }
 
-.submit-tutor{
+.submit-tutor {
   float: left;
   width: 270px;
   height: 60px;
   margin-left: 30px;
-  font-size: 24px;
-  background-color:rgba(255,255,255,0.5);
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.2);
 }
-
 
 .div-mission {
   margin-top: 150px;
@@ -172,7 +202,7 @@ body {
   padding: 0;
 }
 
-.div-container2 {
+.div-container3 {
   clear: both;
   width: 1600px;
   height: 700px;
@@ -224,7 +254,7 @@ body {
   line-height: 40px;
 }
 
-.div-container3 {
+.div-container4 {
   clear: both;
   background-color: #ffcd62;
   float: left;
@@ -290,7 +320,7 @@ body {
   text-align: center;
 }
 
-.div-container4 {
+.div-container5 {
   clear: both;
   background-color: #80a8cc;
   float: left;
@@ -356,7 +386,7 @@ body {
   text-align: center;
 }
 
-.div-container5 {
+.div-container6 {
   clear: both;
   background-color: #fcf9f4;
   float: left;
@@ -429,7 +459,7 @@ body {
   color: #80a8cc;
 }
 
-.div-container6 {
+.div-container7 {
   clear: both;
   float: left;
   height: 100px;
@@ -439,5 +469,3 @@ body {
   text-align: center;
   padding-top: 5%;
 }
-
-.div-Num-label {}
