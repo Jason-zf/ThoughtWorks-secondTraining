@@ -43,7 +43,7 @@ input[type="submit"] {
 
 /*添加边框*/
 
-.border-style {
+.border-infor {
   clear: both;
   border-style: solid;
   border-width: thin;
@@ -73,7 +73,7 @@ input[type="submit"] {
 
 /*考试信息*/
 
-.exam-style {
+.exam-infor {
   float: left;
   text-align: left;
   width: 30%;
@@ -83,7 +83,7 @@ input[type="submit"] {
 
 /*考生信息*/
 
-.student-style {
+.student-infor {
   float: left;
   text-align: left;
   width: 31%;
