@@ -6,12 +6,16 @@ body {
   box-sizing: content-box;
 }
 
+/*body-shadow*/
+
 .body-shadow {
   float: left;
   width: 1600px;
   height: auto;
   box-shadow: 0px 0px 3px gray;
 }
+
+/*菜单的容器*/
 
 .div-container1 {
   clear: both;
@@ -21,69 +25,71 @@ body {
   background-color: #fcf9f4;
 }
 
-.div-img {
+/*logo的容器*/
+
+.div-img-logo {
   float: left;
   height: 100px;
   width: 20%;
 }
+
+/*logo样式*/
 
 .img-logo {
   height: 100px;
   float: right;
 }
 
-.img-1 {
-  height: 330px;
-  width: 330px;
-}
+/*meau内容的容器*/
 
-.menu-border {
+.menu-container {
   border-style: solid;
+  border-width: thin;
   border-top-width: 0;
   border-bottom-width: 0;
   border-radius: 0;
   border-color: #eae7e2;
+  margin-left: 42px;
+  margin-right: 42px;
   float: left;
   width: 60%;
   height: 100px;
 }
 
 .menu-begin {
-  left: 42px;
-  float: left;
-  border-width: thin;
   text-align: left;
+  margin-left: 0;
 }
 
 .menu-end {
-  right: 42px;
   text-align: right;
+  margin-right: 0;
 }
+
+/*menu中每一项*/
 
 .menu-style {
   color: #d8d6d5;
   float: left;
-  width: 16%;
+  width: auto;
   text-align: center;
-  font-style: normal;
   display: inline-block;
   font-size: 15pt;
-  border-width: thin;
-  border-style: none;
   margin-top: 4%;
   margin-bottom: 4%;
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: 2.85%;
+  margin-right: 2.85%;
   padding: 0;
   height: 100px;
+  border-width: thin;
+  border-style: hidden;
 }
 
-.div-Donate {
-  float: left;
-  margin: 2%;
-}
+/*菜单栏submit样式*/
 
 .submit-Donate1 {
+  margin: 2%;
+  margin-left: 0.05%;
   border-color: #dad7d2;
   color: #4d4e59;
   background-color: #fcf9f4;
@@ -92,38 +98,9 @@ body {
   float: left;
   width: 150px;
   height: 40px;
-  margin-top: 2%;
-  margin-bottom: 2%;
 }
 
-.submit-Donate2 {
-  color: #636471;
-  background-color: #ffcd62;
-  border-color: #ffcd62;
-  margin-top: 0;
-  padding: 0;
-  margin-bottom: 200px;
-  width: 19%;
-  height: 9%;
-  position: relative;
-  left: 40.5%;
-  border-radius: 8px;
-}
-
-.submit-StartLearning {
-  background-color: #7db79b;
-  border-color: #7db79b;
-  color: #fdfbf6;
-  width: 300px;
-  height: 60px;
-  font-size: 20px;
-  border-radius: 8px;
-}
-
-.img-hero {
-  height: 794px;
-  width: 1600px;
-}
+/*第二部分容器*/
 
 .div-container2 {
   width: 1600px;
@@ -132,6 +109,8 @@ body {
   background-image: url(hero.png);
   background-size: 100% 100%;
 }
+
+/*第二部分背景加遮掩效果*/
 
 .div-container2-background-mask {
   background-color: rgba(255, 255, 255, 0.2);
@@ -149,6 +128,8 @@ body {
   font-family: cursive;
   color: #ffffff;
 }
+
+/*第二部分中submit容器*/
 
 .submit-container {
   width: 50%;
@@ -182,7 +163,9 @@ body {
   border-color: rgba(255, 255, 255, 0.2);
 }
 
-.div-mission {
+/*第三部分容器和menu部分一样*/
+
+.div-mission-infor {
   margin-top: 150px;
   margin-bottom: 0;
   padding: 0;
@@ -192,7 +175,7 @@ body {
   color: #4d4e59;
 }
 
-.div-normal {
+.div-mission-paragraph {
   font-size: 20px;
   font-family: Open sans;
   text-align: center;
@@ -201,6 +184,22 @@ body {
   margin-bottom: 32px;
   padding: 0;
 }
+
+.submit-Donate2 {
+  color: #636471;
+  background-color: #ffcd62;
+  border-color: #ffcd62;
+  margin-top: 0;
+  padding: 0;
+  margin-bottom: 200px;
+  width: 19%;
+  height: 9%;
+  position: relative;
+  left: 40.5%;
+  border-radius: 8px;
+}
+
+/*第四部分容器*/
 
 .div-container3 {
   clear: both;
@@ -221,10 +220,15 @@ body {
   float: left;
 }
 
+.img-1 {
+  height: 330px;
+  width: 330px;
+}
+
 .div-students-infor-container {
   margin-top: 170px;
   margin-left: 0;
-  margin-bottom: 0;
+  margin-right: 300px;
   padding: 0;
   float: left;
   left: 780px;
@@ -240,7 +244,7 @@ body {
   float: left;
 }
 
-.div-stuents-parapgh {
+.div-stuents-paragraph {
   color: #fcf9f4;
   margin-top: 32px;
   margin-bottom: 32px;
@@ -254,12 +258,24 @@ body {
   line-height: 40px;
 }
 
+.submit-StartLearning {
+  background-color: #7db79b;
+  border-color: #7db79b;
+  color: #fdfbf6;
+  width: 300px;
+  height: 60px;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+/*第五部分容器*/
+
 .div-container4 {
   clear: both;
   background-color: #ffcd62;
   float: left;
   width: 1600px;
-  height: 700px;
+  height: 100%;
 }
 
 .img-2 {
@@ -270,15 +286,15 @@ body {
 .div-img-2 {
   float: left;
   width: 40%;
-  margin-top: 12%;
+  margin-top: 10%;
   padding: 0;
 }
 
-.div-Prospective-parapgh-container {
+.div-Prospective-paragraph-container {
   float: left;
   margin-left: 20%;
   width: 40%;
-  margin-top: 10%;
+  margin-top: 9%;
   padding: 0;
 }
 
@@ -292,7 +308,7 @@ body {
   width: 100%;
 }
 
-.div-Prospective-parapgh {
+.div-Prospective-paragraph {
   color: #fcf9f4;
   margin-top: 32px;
   margin-bottom: 32px;
@@ -320,19 +336,21 @@ body {
   text-align: center;
 }
 
+/*第六部分容器*/
+
 .div-container5 {
   clear: both;
   background-color: #80a8cc;
   float: left;
   width: 1600px;
-  height: 700px;
+  height: 100%;
 }
 
 .div-img-3 {
   float: left;
   width: 30%;
   margin-left: 20%;
-  margin-top: 12%;
+  margin-top: 10%;
   padding: 0;
 }
 
@@ -341,10 +359,10 @@ body {
   height: 330px;
 }
 
-.div-Partners-parapgh-container {
+.div-Partners-paragraph-container {
   float: left;
   width: 50%;
-  margin-top: 12%;
+  margin-top: 8%;
   padding: 0;
 }
 
@@ -358,7 +376,7 @@ body {
   width: 100%;
 }
 
-.div-Partners-parapgh {
+.div-Partners-paragraph {
   color: #fcf9f4;
   margin-top: 32px;
   margin-bottom: 32px;
@@ -385,6 +403,8 @@ body {
   width: 30%;
   text-align: center;
 }
+
+/*第七部分容器*/
 
 .div-container6 {
   clear: both;
@@ -459,11 +479,14 @@ body {
   color: #80a8cc;
 }
 
+/*第八部分容器*/
+
 .div-container7 {
   clear: both;
   float: left;
   height: 100px;
   width: 1600px;
+  margin: 0;
   background-color: #4c4d58;
   color: #d4d2d0;
   text-align: center;
